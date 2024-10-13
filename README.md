@@ -1,7 +1,7 @@
 I wrote this library as a replacement for the jQuery plugin [idTabs by Sean Catchpole](https://www.sunsean.com/idTabs). Of course, the idea is that you don't need jQuery for this one.
 
 [![npm](https://img.shields.io/badge/npm-FFF?style=flat&logo=npm&logoColor=fff&color=CB3837)](https://www.npmjs.com/package/@danielvigaru/id-tabs)
-[![bundlephobia](https://img.shields.io/bundlephobia/min/%40danielvigaru%2Fid-tabs)](https://bundlephobia.com/package/@danielvigaru/id-tabs)
+[![bundlephobia](https://img.shields.io/bundlephobia/min/%40danielvigaru%2Fid-tabs?cacheSeconds=60)](https://bundlephobia.com/package/@danielvigaru/id-tabs)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&logo=ko-fi&logoColor=white&color=D34F4C)](https://ko-fi.com/Y8Y1DZBZU)
 
 # How to use IdTabs
