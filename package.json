@@ -1,5 +1,5 @@
 {
-    "name": "id-tabs",
+    "name": "@danielvigaru/id-tabs",
     "version": "1.0.0",
     "author": "Daniel Vigaru",
     "license": "MIT",
@@ -14,7 +14,6 @@
     "bugs": {
         "url": "https://github.com/danielvigaru/id-tabs/issues"
     },
-    "homepage": "https://github.com/danielvigaru/id-tabs#readme",
     "keywords": [
         "tabs",
         "tab",
