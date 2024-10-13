@@ -4,7 +4,9 @@
     "author": "Daniel Vigaru",
     "license": "MIT",
     "description": "",
+    "type": "module",
     "main": "lib/id-tabs.js",
+    "module": "lib/id-tabs.js",
     "scripts": {
         "prebuild": "del-cli lib/*",
         "build": "tsc"
@@ -16,13 +18,14 @@
     "keywords": [
         "tabs",
         "tab",
-        "id-tabs"
+        "id-tabs",
+        "tab-system"
     ],
     "devDependencies": {
         "del-cli": "^5.1.0",
         "typescript": "^5.6.2"
     },
     "files": [
-        "lib"
+        "lib/**/*"
     ]
 }
