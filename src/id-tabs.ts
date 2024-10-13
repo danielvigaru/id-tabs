@@ -50,6 +50,10 @@ class IdTabs {
     private tabAnchors: IdTabsAnchor[] = [];
     private tabContents: IdTabsContent[] = [];
 
+    static init(selectorOrNode: string | HTMLElement) {
+        new IdTabs(selectorOrNode);
+    }
+
     constructor(selectorOrNode: string | HTMLElement) {
         let tabListParentList: HTMLElement[] = [];
 
@@ -139,7 +143,7 @@ class IdTabs {
 
 // Default automatic initialization
 window.addEventListener('load', () => {
-    new IdTabs('.idTabs');
+    IdTabs.init('.idTabs');
 });
 
 export default IdTabs;

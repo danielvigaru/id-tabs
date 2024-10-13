@@ -2,6 +2,11 @@ I wrote this library as a replacement for the jQuery plugin [idTabs by Sean Catc
 
 # How to use IdTabs
 
+```javascript
+import IdTabs from 'id-tabs';
+IdTabs.init('.your-selector');
+```
+
 1. Create your content and add IDs to the containers
 2. Create a list of anchors, these will be the tabs. Use the previously created IDs as hrefs, like `href="#tab-content-id"`
 3. For initialization, see the examples below:
@@ -10,7 +15,7 @@ I wrote this library as a replacement for the jQuery plugin [idTabs by Sean Catc
 
 Set a default tab in a group by adding the class `selected` to the anchor.
 
-## Examples
+# Examples
 
 ### Using your own selector
 
@@ -28,7 +33,7 @@ Set a default tab in a group by adding the class `selected` to the anchor.
 <div id="tab-3">Tab 3 content</div>
 ```
 
-Initialize this by running `new IdTabs('.tab-container ul');` on page load.
+Initialize this by running `IdTabs.init('.tab-container ul')` on page load.
 
 ### Using the default selector `class="idTabs"`
 
