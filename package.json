@@ -4,13 +4,12 @@
     "author": "Daniel Vigaru",
     "license": "MIT",
     "description": "",
-    "type": "module",
-    "main": "lib/id-tabs.js",
-    "module": "lib/id-tabs.js",
+    "main": "lib/index.umd.js",
+    "module": "lib/id-tabs.mjs",
     "scripts": {
         "prepublishOnly": "npm run build",
         "prebuild": "del-cli lib/*",
-        "build": "tsc"
+        "build": "rollup -c"
     },
     "bugs": {
         "url": "https://github.com/danielvigaru/id-tabs/issues"
@@ -22,7 +21,10 @@
         "tab-system"
     ],
     "devDependencies": {
+        "@rollup/plugin-typescript": "^12.1.2",
         "del-cli": "^5.1.0",
+        "rollup": "^4.28.1",
+        "tslib": "^2.8.1",
         "typescript": "^5.6.2"
     },
     "files": [
