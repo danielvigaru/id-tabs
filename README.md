@@ -17,7 +17,7 @@ IdTabs.init('.your-selector');
 
 ## Default tab
 
-Set a default tab in a group by adding the class `selected` to the anchor.
+Set a default tab in a group by adding the class `selected` to its anchor, otherwise, the first tab will be selected by default.
 
 # Examples
 
