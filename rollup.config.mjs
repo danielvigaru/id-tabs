@@ -1,4 +1,3 @@
-import terser from '@rollup/plugin-terser';
 import typescript from '@rollup/plugin-typescript';
 
 export default {
@@ -14,5 +13,5 @@ export default {
             name: 'IdTabs',
         },
     ],
-    plugins: [typescript(), terser()],
+    plugins: [typescript()],
 };
